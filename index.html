@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Minha calculadora (não tão) bonitinha</h1>
+  <p>
+    Não foquei tanto na estilização da calculadora pois queria implementar uma calculadora totalmente funcional,
+    que aceitasse parenteses e sem utilizar a função eval.
+
+    Dai implementei todo um mecanismo de lexing, parsing e avaliação de expressões matemáticas.
+  </p>
+  <div id="calculator-body">
+    <input type="text" id="calculator__field" />
+    <button id="calculator__evaluate">Calcular</button>
+  </div>
+
+  <div id="calculator-result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
